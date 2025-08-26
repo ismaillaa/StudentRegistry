@@ -1,0 +1,21 @@
+﻿# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.vscode/
+
+# Development settings
+appsettings.Development.json
+
+# Logs
+*.log
+
+# Rider
+.idea/
+
+# Others
+*.DS_Store
+*.vs/
