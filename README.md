@@ -1,7 +1,5 @@
 # 🎓 StudentRegistry
 
-# StudentRegistry
-
 A simple ASP.NET Core web application for managing student records.
 
 ## Features
