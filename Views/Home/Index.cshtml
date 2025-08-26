@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Student Registry - Home";
+}
+
+<div class="container mt-5 text-center">
+    <h1 class="display-4 text-primary">🎓 Welcome to the Student Registry</h1>
+    <p class="lead mt-3">
+        Manage your students easily. You can add, edit, search, and delete students effortlessly!
+    </p>
+
+    <hr class="my-4" />
+
+    <div class="mt-4">
+        <a asp-controller="Student" asp-action="Index" class="btn btn-primary btn-lg mx-2">
+            <i class="bi bi-people"></i> View All Students
+        </a>
+        <a asp-controller="Student" asp-action="Create" class="btn btn-success btn-lg mx-2">
+            <i class="bi bi-person-plus"></i> Add New Student
+        </a>
+    </div>
+
+    <div class="mt-5">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+             alt="Students"
+             width="200"
+             class="shadow rounded" />
+    </div>
+</div>
